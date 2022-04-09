@@ -4,7 +4,7 @@ For this program, The NUCLEO-WB55RG board (STM32WB55RGV6U MCU) was used. LED LED
 ![STM32WB55RG Nucleo User Buttons and LEDs](images/STM32WB55RGV6U_nucleo_buttons_and_leds.png)
 
 ## Button and LED Behavior
-The button is debounced by a timer ISR that triggers every 5ms and waits for 10 consecutive button samples that match the current debounced button state.
+The button is debounced by a timer ISR that triggers every 5ms and waits for 9 consecutive button samples that match the current debounced button state.
 
 Here is an example of the button and LED behavior for a press and release event.
 ![Press and release zoom out](images/button_press_and_release_zoom_out.png)
