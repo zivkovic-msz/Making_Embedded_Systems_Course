@@ -1,0 +1,6 @@
+../Core/Src/consoleIo.c:12:12:getch_noblock	16	static
+../Core/Src/consoleIo.c:25:15:ConsoleIoInit	8	static
+../Core/Src/consoleIo.c:34:15:ConsoleIoReceive	32	static
+../Core/Src/consoleIo.c:50:15:ConsoleIoSendString	16	static
+../Core/Src/consoleIo.c:56:6:USART1_IRQHandler	8	static
+../Core/Src/consoleIo.c:60:6:HAL_UART_RxCpltCallback	16	static
